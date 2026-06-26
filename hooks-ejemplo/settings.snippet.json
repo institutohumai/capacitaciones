@@ -1,0 +1,16 @@
+{
+  "_comment": "Copiá el bloque 'hooks' a tu .claude/settings.json del repo. Ajustá la ruta de guard.sh si hace falta. Acordate: chmod +x hooks-ejemplo/guard.sh",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write|Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/hooks-ejemplo/guard.sh"
+          }
+        ]
+      }
+    ]
+  }
+}

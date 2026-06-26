@@ -1,0 +1,7 @@
+# Dueños por defecto de todo el repo (deben revisar todo PR).
+* @quantit/leads
+
+# El módulo legacy y la config sensible requieren review explícito.
+/app/legacy_aggregator.py @quantit/leads
+/.env.example            @quantit/leads
+/railway.json            @quantit/leads
