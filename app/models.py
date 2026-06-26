@@ -1,8 +1,4 @@
-"""Modelos de datos.
-
-NOTA: la columna de monto se llama `value`. (En una versión vieja del sistema
-se llamaba `amount`; quedó algún módulo legacy sin actualizar...)
-"""
+"""Modelos de datos."""
 from sqlalchemy import Column, Float, Integer, String
 
 from app.db import Base

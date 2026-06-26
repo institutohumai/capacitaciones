@@ -1,9 +1,4 @@
-"""Test de integración: los totales mensuales deben ser correctos.
-
-Este test FALLA con el bug sembrado en legacy_aggregator (los totales dan 0).
-La causa real sólo se ve en los logs de la API (KeyError 'amount').
-Es el test que se arregla en el ejercicio E4.
-"""
+"""Test de integración: los totales mensuales deben ser correctos."""
 
 EXPECTED = {"2026-01": 300.0, "2026-02": 200.0, "2026-03": 300.0}
 

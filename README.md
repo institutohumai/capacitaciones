@@ -49,9 +49,8 @@ npm run dev                        # http://localhost:5173
 python3 -m pytest -q
 ```
 
-Vas a ver **1 test que falla** (`tests/test_integration.py`): los totales
-mensuales dan 0. La causa real **sólo se ve en los logs** de la API. Ese es el
-bug del ejercicio E4.
+Vas a ver **1 test que falla** (`tests/test_integration.py`). Es a propósito:
+parte de los ejercicios es averiguar por qué y arreglarlo.
 
 ## Deploy a Railway
 
@@ -79,10 +78,7 @@ Para activar cualquiera:
 mkdir -p .claude/skills && cp -r skills-ejemplo/<skill> .claude/skills/
 ```
 
-## Deuda técnica sembrada (para los ejercicios)
+## Ejercicios
 
-- `app/legacy_aggregator.py`: módulo enredado (E2) + **bug visible sólo en logs** (E4).
-- Una función inexistente (`normalize_band`) detrás de una rama muerta (AI smell).
-- Un umbral mágico `THRESHOLD = 1000` sin justificar.
-- Un test comentado en `tests/test_reports.py` (AI smell).
-- No hay `CLAUDE.md`: lo crean en el ejercicio E1.
+La práctica corre sobre este repo (no necesitás traer uno propio). No hay
+`CLAUDE.md`: lo creás en el primer ejercicio.
