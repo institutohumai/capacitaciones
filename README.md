@@ -80,5 +80,6 @@ mkdir -p .claude/skills && cp -r skills-ejemplo/<skill> .claude/skills/
 
 ## Ejercicios
 
-La práctica corre sobre este repo (no necesitás traer uno propio). No hay
-`CLAUDE.md`: lo creás en el primer ejercicio.
+La práctica corre sobre este repo (no necesitás traer uno propio). El `CLAUDE.md`
+viene **inflado a propósito**: el primer ejercicio es mejorarlo (curarlo) y ver
+cómo baja lo que ocupa en el contexto.
